@@ -12,8 +12,19 @@ ul {
   padding: 0;
 }
 
-.standard-container {
+.standard-container,
+.multibox-container {
   padding: 25px;
   border: white 1px solid;
   margin-top: 10%;
+  text-align: center;
+}
+
+.multibox-container {
+  margin-top: 0%;
+  margin-bottom: 5%;
+}
+
+.multibox-container-top {
+  margin-top: 5%;
 }

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 import './About.css';
 import me from './me.jpg';
-
 import Loader from '../Loader/Loader';
 
 class About extends Component {
@@ -27,10 +26,12 @@ class About extends Component {
           <img
             src={me}
             className='img-fluid bio-image'
-            alt='my picture'
+            alt='my face'
             onLoad={this.onLoad.bind(this)}/>
           <div className='bio-text'>
             <p>I'm a web developer, living in London</p>
+            <p>I like minimalist websites :)</p>
+            <p>Contact me on gemcgow (at) gmail (dot) com</p>
           </div>
         </div>
       </div>
