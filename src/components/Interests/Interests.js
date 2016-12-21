@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-import CentreBox from '../CentreBox/CentreBox';
-
 class Interests extends Component {
   render() {
     return (
