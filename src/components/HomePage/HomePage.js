@@ -1,16 +1,12 @@
 import React, { Component } from 'react';
-import './HomePage.css';
+import CentreBox from '../CentreBox/CentreBox';
 
 class HomePage extends Component {
   render() {
     return (
-      <div className='main'>
-        <div className="home-page">
-          <div className="introduction">
-            <h1>Hi, I'm George!</h1>
-          </div>
-        </div>
-      </div>
+      <CentreBox>
+        <h1>Hi, I'm George!</h1>
+      </CentreBox>
     );
   }
 }

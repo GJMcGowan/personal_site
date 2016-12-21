@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
 
+import CentreBox from '../CentreBox/CentreBox';
+
 class Interests extends Component {
   render() {
     return (
-      <div>
-        <p>Interests</p>
-      </div>
+      <CentreBox>
+        <ul>
+          <li>Board Games</li>
+          <li>Effective Altruism</li>
+        </ul>
+      </CentreBox>
     );
   }
 }
