@@ -1,18 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './CentreBox.css';
 
-class CentreBox extends Component {
-  render() {
-    return (
-      <div className='main'>
-        <div className="home-page">
-          <div className="introduction">
-            {this.props.children}
-          </div>
-        </div>
+const CentreBox = (props) => (
+  <div className='main'>
+    <div className="center-box">
+      <div className="text">
+        {props.children}
       </div>
-    );
-  }
-}
+    </div>
+  </div>
+);
 
 export default CentreBox;

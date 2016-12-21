@@ -1,4 +1,6 @@
 .bio-image {
+  border: white solid 1px;
+  padding: 2px;
   width: 25%;
 }
 

@@ -3,13 +3,15 @@
   flex-direction: column;
 }
 
-.home-page {
+.center-box {
   height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.introduction {
+.text {
+  padding: 25px;
+  border: white 1px solid;
   margin-top: -50px;
 }
