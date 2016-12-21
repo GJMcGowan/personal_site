@@ -9,6 +9,7 @@ class Interests extends Component {
         <ul>
           <li>Board Games</li>
           <li>Effective Altruism</li>
+          <li>Cats</li>
         </ul>
       </CentreBox>
     );
