@@ -1,7 +1,34 @@
 import React, { Component } from 'react';
+import { Pie } from 'react-chartjs';
 
 class Charity extends Component {
   render() {
+    const data = [
+      {
+          value: 3300.00,
+          color:"#F7464A",
+          highlight: "#FF5A5E",
+          label: "Centre for Effective Altruism"
+      },
+      {
+          value: 2647.50,
+          color: "#46BFBD",
+          highlight: "#5AD3D1",
+          label: "80,000 Hours"
+      },
+      {
+          value: 883,
+          color: "#FDB45C",
+          highlight: "#FFC870",
+          label: "SCI"
+      }
+    ]
+
+    // TODO: Not working, I think I need to update ChartJs
+    const options = {
+      legend: true
+    }
+
     return (
       <div className='multibox-container-top'>
         <div className='col-xs-10 col-xs-offset-1 multibox-container'>
@@ -25,10 +52,7 @@ class Charity extends Component {
             In 2016 I donated a total of £6,830.50 (inc Gift Aid).
           </p>
           <p>
-            It was broken down as follows
-          </p>
-          <p>
-            GRAPH
+            <Pie data={data} options={options} />
           </p>
         </div>
       </div>
