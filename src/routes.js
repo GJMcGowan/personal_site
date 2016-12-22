@@ -9,7 +9,6 @@ import About from './components/About/About';
 import Work from './components/Work/Work';
 import Interests from './components/Interests/Interests';
 import Charity from './components/Charity/Charity';
-import LetsEncrypt from './LetsEncrypt';
 
 const Routes = (props) => (
   <Router {...props}>
@@ -19,7 +18,6 @@ const Routes = (props) => (
       <Route path="/work" component={Work} />
       <Route path="/interests" component={Interests} />
       <Route path='/charity' component={Charity} />
-      <Route path='/.well-known/acme-challenge/I_cDewDgzHGxiGQfbjmLw19Nt6dtiwNw1PUyks9UFB0' component={LetsEncrypt} />
       <Route path="*" component={HomePage} />
     </Route>
   </Router>
