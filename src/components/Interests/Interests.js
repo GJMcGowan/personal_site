@@ -33,10 +33,10 @@ class Interests extends Component {
   render() {
     return (
       <div className='multibox-container-top'>
-        <div className='col-xs-10 col-xs-offset-1 multibox-container'>
+        <div className='col-xs-8 col-xs-offset-2 multibox-container'>
           <h2>Board Games</h2>
           <p>
-            I really like the european (Link) type of board game. Click for a
+            I really like the <a href='https://en.wikipedia.org/wiki/Eurogame'>european</a> type of board game. Click for a
             list of all the board games I own.
           </p>
           <button
@@ -46,15 +46,15 @@ class Interests extends Component {
           </button>
           {this.renderBoardGames()}
         </div>
-        <div className='col-xs-10 col-xs-offset-1 multibox-container'>
+        <div className='col-xs-8 col-xs-offset-2 multibox-container'>
           <h2>Effective Altruism</h2>
           <p>
-            <a href='https://www.effectivealtruism.org/articles/introduction-to-effective-altruism/'>Effective Altruism</a> is
+            I'm a big fan of <a href='https://www.effectivealtruism.org/articles/introduction-to-effective-altruism/'>Effective Altruism</a>,
              a movement dedicated to thinking carefully about how best to help
-             the world with our limited resources, and then doing that thing.
+             the world with our limited resources.
           </p>
           <p>
-            <a href='/charity'>I donate significant amounts</a> to charities I
+            As part of this <a href='/charity'>I donate significant amounts</a> to charities I
             think will do the most good for the world every year.
           </p>
         </div>

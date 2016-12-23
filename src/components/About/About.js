@@ -18,7 +18,7 @@ class About extends Component {
 
   render() {
     return (
-      <div className='col-xs-10 col-xs-offset-1 standard-container'>
+      <div className='col-xs-8 col-xs-offset-2 standard-container'>
         <div hidden={this.state.imageLoaded}>
           <Loader />
         </div>

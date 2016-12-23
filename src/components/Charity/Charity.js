@@ -31,11 +31,11 @@ class Charity extends Component {
 
     return (
       <div className='multibox-container-top'>
-        <div className='col-xs-10 col-xs-offset-1 multibox-container'>
+        <div className='col-xs-8 col-xs-offset-2 multibox-container'>
           <p>
-            I am a member of <a href='https://www.givingwhatwecan.org'>Giving What We Can</a> which
-            means I pledge to give away at least 10% of my income to charities that
-            I think will benefit the world the most.
+            I am a member of <a href='https://www.givingwhatwecan.org'>Giving What We Can</a> whose
+            members pledge to give at least 10% of their income to charities they
+            believe are most effective at helping people.
           </p>
           <p>
             I pledged to donate more than 10% because I felt able to do so, and
@@ -46,7 +46,7 @@ class Charity extends Component {
             are over 2000 of us! :)
           </p>
         </div>
-        <div className='col-xs-10 col-xs-offset-1 multibox-container'>
+        <div className='col-xs-8 col-xs-offset-2 multibox-container'>
           <h2>2016 Donations</h2>
           <p>
             In 2016 I donated a total of £6,830.50 (inc Gift Aid).
