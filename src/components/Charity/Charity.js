@@ -33,7 +33,7 @@ class Charity extends Component {
       <div className='multibox-container-top'>
         <div className='col-xs-8 col-xs-offset-2 multibox-container'>
           <p>
-            I am a member of <a href='https://www.givingwhatwecan.org'>Giving What We Can</a> whose
+            I am a member of <a target='_blank' href='https://www.givingwhatwecan.org'>Giving What We Can</a> whose
             members pledge to give at least 10% of their income to charities they
             believe are most effective at helping people.
           </p>
@@ -42,7 +42,7 @@ class Charity extends Component {
             wanted to make altruism a bigger part of my life.
           </p>
           <p>
-            I encourage you to <a href='https://www.givingwhatwecan.org/get-involved/become-member'>become a member too</a>, there
+            I encourage you to <a target='_blank' href='https://www.givingwhatwecan.org/get-involved/become-member'>become a member too</a>, there
             are over 2000 of us! :)
           </p>
         </div>

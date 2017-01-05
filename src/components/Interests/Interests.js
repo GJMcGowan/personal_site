@@ -10,7 +10,7 @@ class Interests extends Component {
         <div className='col-xs-8 col-xs-offset-2 multibox-container'>
           <h2>Effective Altruism</h2>
           <p>
-            I'm a big fan of <a href='https://www.effectivealtruism.org/articles/introduction-to-effective-altruism/'>Effective Altruism</a>,
+            I'm a big fan of <a target='_blank' href='https://www.effectivealtruism.org/articles/introduction-to-effective-altruism/'>Effective Altruism</a>,
              a movement dedicated to thinking carefully about how best to help
              the world with our limited resources.
           </p>

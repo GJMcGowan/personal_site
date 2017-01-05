@@ -44,7 +44,7 @@ class BoardGames extends Component {
       <div className='col-xs-8 col-xs-offset-2 multibox-container'>
         <h2>Board Games</h2>
         <p>
-          I really like the <a href='https://en.wikipedia.org/wiki/Eurogame'>european</a> type of board game. Click for a
+          I really like the <a target='_blank' href='https://en.wikipedia.org/wiki/Eurogame'>european</a> type of board game. Click for a
           list of all the board games I own.
         </p>
         <button
