@@ -4,11 +4,6 @@
   "routes": {
     "/**": "index.html"
   },
-  "proxies": {
-    "/board-game/": {
-      "origin": "https://boardgamegeek.com/xmlapi2/collection?username=gedusa"
-    }
-  },
   "headers": {
     "/**": {
       "Access-Control-Allow-Origin": "*"
