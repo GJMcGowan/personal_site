@@ -1,8 +1,11 @@
 {
   "root": "build/",
   "clean_urls": false,
+  "routes": {
+    "/**": "index.html"
+  },
   "proxies": {
-    "/board-games/": {
+    "/board-game/": {
       "origin": "https://boardgamegeek.com/xmlapi2/collection?username=gedusa"
     }
   },
