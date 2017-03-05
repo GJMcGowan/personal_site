@@ -24,7 +24,6 @@ class Charity extends Component {
       }
     ]
 
-    // TODO: Not working, I think I need to update ChartJs
     const options = {
       legend: true
     }

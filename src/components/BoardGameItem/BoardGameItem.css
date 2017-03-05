@@ -1,0 +1,20 @@
+.column {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+}
+
+.image-container {
+  width: 25%;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 75%;
+}
+
+.boardgame-image {
+  width: 100%;
+}

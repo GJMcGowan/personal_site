@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
-import boardGameCall from '../../utils/ApiUtils';
+
+import BoardGameItem from '../BoardGameItem/BoardGameItem';
+
+import pandemic from './pandemic.png';
+import star_wars from './star_wars.png';
+import twilight_struggle from './twilight_struggle.jpg';
 
 class BoardGames extends Component {
   constructor(props) {
@@ -9,27 +14,24 @@ class BoardGames extends Component {
     }
   }
 
-  componentDidMount() {
-    debugger;
-    boardGameCall();
-  }
-
   renderBoardGames() {
     if (!this.state.showBoardGames) {
       return null;
     }
 
-    // my collection is at url: https://boardgamegeek.com/xmlapi2/collection?username=gedusa
-
+    //TODO: Ideally add reviews, maybe links elsewhere?
     const listOfGames = [
-      'Settlers of Catan', 'Pandemic Legacy', 'Star Wars: Rebellion',
-      'Labyrinth: The War on Terror', 'Twilight Struggle'
+      {name: 'Pandemic Legacy', imageSource: pandemic},
+      {name: 'Star Wars: Rebellion', imageSource: star_wars},
+      {name: 'Twilight Struggle', imageSource: twilight_struggle}
     ];
 
     return (
       <ul>
         {listOfGames.map((item, index) =>
-          <li key={index}>{item}</li>
+          <BoardGameItem
+            item={item}
+            key={index} />
         )}
       </ul>
     )
@@ -44,13 +46,12 @@ class BoardGames extends Component {
       <div className='col-xs-8 col-xs-offset-2 multibox-container'>
         <h2>Board Games</h2>
         <p>
-          I really like the <a target='_blank' href='https://en.wikipedia.org/wiki/Eurogame'>european</a> type of board game. Click for a
-          list of all the board games I own.
+          I love board games! Currently I'm playing a lot of two player games.
         </p>
         <button
           className='btn btn-default'
           onClick={this.toggleBoardGames.bind(this)}>
-          See what a nerd I am
+          See my favourite games
         </button>
         {this.renderBoardGames()}
       </div>

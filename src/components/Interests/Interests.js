@@ -14,10 +14,6 @@ class Interests extends Component {
              a movement dedicated to thinking carefully about how best to help
              the world with our limited resources.
           </p>
-          <p>
-            As part of this <a href='/charity'>I donate significant amounts</a> to charities I
-            think will do the most good for the world every year.
-          </p>
         </div>
       </div>
     );

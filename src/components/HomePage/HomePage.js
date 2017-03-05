@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 import CentreBox from '../CentreBox/CentreBox';
 
 class HomePage extends Component {
